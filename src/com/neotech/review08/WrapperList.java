@@ -62,7 +62,10 @@ public class WrapperList {
 		// System.out.println(it.next()); // Run-time Error
 
 		// TASK until 2:03: Iterate numbers using iterator
-
+		while (it.hasNext()) {
+			int element = it.next();
+			System.out.println(element);
+		}
 	}
 
 }
