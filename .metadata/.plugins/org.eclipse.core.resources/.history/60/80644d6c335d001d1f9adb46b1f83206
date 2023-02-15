@@ -1,0 +1,18 @@
+package com.neotech.lesson22;
+
+public class CalculateArea2Test {
+	public static void main(String[] args) {
+		
+		
+	CalculateArea a=new CalculateArea();
+	CalculateArea b=new CalculateArea();
+	CalculateArea c=new CalculateArea();
+	
+	a.calculate(5);
+	a.calculate(5, 6);
+	a.calculate(5, 6, 8);
+	
+	
+	}
+
+}

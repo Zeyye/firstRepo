@@ -1,0 +1,24 @@
+package com.neotech.lesson22;
+
+public class CalculateArea {
+	
+	/*
+	 * Create a class named CalculateArea in which you should create three methods
+	 * (with the same name )that will calculate the area (volume) of - Rectangle -
+	 * Square - Box Use a separate class to test your code
+	 */
+	
+	double  calculate(double a) 
+	{
+		return a*a;
+	}
+	
+	double calculate( double a, double b) 
+	{
+		return a*b;
+	}
+	double calculate (double a, double b, double c) {
+		
+		return a*b*c;
+	}
+}

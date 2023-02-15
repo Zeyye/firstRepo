@@ -1,0 +1,26 @@
+package com.neotech.lesson02;
+
+public class CommentDemo {
+
+	// ctrl+space will create teh main method ==shortcut
+
+	public static void main(String[] args) {
+
+		// single line comment
+		// this another comment
+
+		System.out.println("look down in the console window!");
+		System.out.println("how many lines will be printed");
+		/**
+		 * 
+		 * this is multiline comment i can continue with extra explanations i believe
+		 * corona will disapear this summer
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+
+	}
+
+}

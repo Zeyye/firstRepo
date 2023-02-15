@@ -1,0 +1,34 @@
+package com.neotech.lesson06;
+
+import java.util.Scanner;
+
+public class ScannerDemo {
+	
+	public static void main(String[] args) {
+		
+		//import scanner class
+		//windows -->ctrl+shift+o
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter your name!");
+		
+		String name=input.next();
+		
+		System.out.println("Nice to meet you!");
+		
+		System.out.println("Please enter your age");
+		int age=input.nextInt();
+		System.out.println("your age is "+ age);
+		
+		System.out.println("Please enter your weight");
+		double weight= input.nextDouble();
+		System.out.println("your age is "+ weight);
+		
+		
+	}
+	
+	
+
+	}
+
+

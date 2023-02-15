@@ -1,0 +1,19 @@
+package com.neotech.lesson08;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		//How can I print only even numbers from 50 to 1?
+		
+		int a =12;
+		
+		while(a<50 && a>1 );
+		{
+			System.out.println(a);
+			++a;
+		}
+		
+
+	}
+
+}

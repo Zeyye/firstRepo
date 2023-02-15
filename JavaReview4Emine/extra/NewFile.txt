@@ -1,0 +1,7 @@
+#C:\Users\emine\eclipse-workspace\JavaReview4Emine/extra/NewFile.txt
+#Sun Dec 04 13:37:48 EST 2022
+Age=60
+FirstName=Emine
+LastName=Atalay
+SSN=12345678
+School=Neotech

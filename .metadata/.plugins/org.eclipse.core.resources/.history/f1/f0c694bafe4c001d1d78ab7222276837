@@ -1,0 +1,41 @@
+package com.neotech.lesson14;
+
+public class Homework1 {
+
+	public static void main(String[] args) {
+		/*
+		 * Homework 1: Create an array of countries: north America countries, south
+		 * America countries, Europe countries, Asian countries, African countries. Then
+		 * print all values from that array using 2 different loops and calculate how
+		 * many total countries been stored.
+		 */
+
+		String[][] countries = { { "Canada", "USA", "Panama", "Jamaica" }, { "Brazil", "Colombia", "Argentina" },
+				{ "France", "Italy", "Spain" }, { "Russia", "India", "Iran" },
+				{ "Uganda", "Kenya", "Nigeria", "Senegal" } };
+
+		for (int row = 0; row < countries.length; row++)// goes through all rows
+		{
+			for (int col = 0; col < countries[row].length; col++)// goes through all cols
+			{
+				System.out.print(countries[row][col] + " ");
+			}
+			System.out.println();
+		}
+
+		System.out.println();
+
+		System.out.println("USING A FOR EACH LOOP");
+
+		for (String[] row : countries) // for each string array row of animals
+		{
+			for (String country : row)// for each string in the current row
+			{
+				System.out.print(country + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.neotech.lesson14;
+
+public class Homework2 {
+	public static void main(String[] args) {
+
+		/*
+		 * IQ
+		 * 
+		 * Write a java program to find the second largest number in the array? Maximum
+		 * and minimum number in the array?
+		 */
+
+		int[] points = { 2390, 185, 395, 735, 493, 3395, 3100 };
+		
+		int theLargest=points[0];
+		int theSecondLargest=points[0];
+		int min=points[0];
+		
+		for(int i = 1; i<=points.length;i++) 
+		{
+		if(points[i]>theLargest)	
+		}
+		
+		
+		
+
+	}
+
+}

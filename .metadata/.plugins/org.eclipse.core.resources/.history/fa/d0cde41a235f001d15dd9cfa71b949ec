@@ -1,0 +1,20 @@
+package com.neotech.lesson23;
+
+public class Employee {
+	double salary;
+
+	void getPaid() {
+		System.out.println("The employyee salary is: " + salary);
+	}
+
+}
+
+class Constructor extends Employee {
+	double hourlyRate;
+	
+	void getPaid() 
+	{
+		System.out.println("The constructor is hourly rate is "+hourlyRate);
+	}
+
+}

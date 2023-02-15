@@ -1,0 +1,46 @@
+package com.neotech.lesson08;
+
+public class PreIncrementAndPostIncrement {
+	
+	public static void main(String[] args) {
+		
+		//++increment   ------>add 1 
+		//--decrement
+		
+		int x;
+		int y=10;
+		
+		//POST-increment
+		
+		x=y++;
+		
+		System.out.println(x);
+		System.out.println(y);
+		
+		//PRE-INCREMENT
+		int a;
+		int b=15;
+		
+		a=++b;//---->first  increment b=b+1
+		        //----->assign value of b to a
+		System.out.println(a);
+		System.out.println(b);
+		
+		
+		//Decrement--
+		
+		int c;
+		int d=14;
+		
+		c=--d;
+		
+		System.out.println(c);
+		System.out.println(d);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package DenemeReview;
+
+import java.util.Scanner;
+
+public class ScannerReview {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner (System.in);
+		
+		//.next() reads the first word until the space
+		/*
+		 * System.out.println("Please enter your name"); String firstName=scan.next();
+		 * 
+		 * System.out.println("Please enter your lastname"); String
+		 * lastName=scan.next();
+		 * 
+		 * System.out.println(firstName+" "+lastName);
+		 */
+		
+		System.out.println("====================");
+		
+		//.nextLine()reads the whole line until enter
+		
+		System.out.println("Please anter your first name!");
+		String firstName=scan.nextLine();
+		
+		System.out.println("Please enter your lastname"); String
+		 lastName=scan.nextLine();
+		
+		
+		
+		
+		
+
+	}
+
+}

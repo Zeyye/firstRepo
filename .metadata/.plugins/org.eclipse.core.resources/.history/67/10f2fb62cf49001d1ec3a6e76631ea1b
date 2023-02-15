@@ -1,0 +1,9 @@
+package com.neotech.lesson11;
+
+public class PrintArrays {
+
+	private void sysout() {
+
+	}
+
+}

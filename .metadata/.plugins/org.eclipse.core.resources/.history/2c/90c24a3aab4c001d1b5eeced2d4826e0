@@ -1,0 +1,26 @@
+package com.neotech.lesson13;
+
+public class Task1 {
+	public static void main(String[] args) {
+		/*
+		 * Create a 2D array of integer type with 3 rows and 4 columns and print all
+		 * values of the whole array.
+		 */
+
+		String[][] cars = { { "Honda", "Toyota", "Mercedes", "Nissan" }, { "1999", "2000", "1998", "2001" },
+				{ "Accord", "Rav4", "Vito", "Versa" },
+
+		};
+		int rows = cars.length;
+
+		for (int row = 0; row < row; row++) {
+
+			for (int col = 0; col < cars[row].length; col++) {
+
+				System.out.print(cars[row][col] + " ");
+			}
+			System.out.println();
+		}
+
+	}
+}

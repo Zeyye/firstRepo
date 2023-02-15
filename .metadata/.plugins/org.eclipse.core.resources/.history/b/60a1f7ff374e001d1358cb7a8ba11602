@@ -1,0 +1,33 @@
+package com.neotech.lesson14;
+
+public class Homework2 {
+	public static void main(String[] args) {
+
+		/*
+		 * IQ
+		 * 
+		 * Write a java program to find the second largest number in the array? Maximum
+		 * and minimum number in the array?
+		 */
+
+		int[] array = { -9, 8, 78, -123, 8976, 90, 67 };
+
+		int largest = array[0];
+		int secondLargest = array[0];
+		int smallest = array[0];
+
+		for (int i = 1; i < array.length; i++) {
+			if (array[i] > largest) {
+				largest = array[i];
+
+			} else if (array[i] < smallest) {
+				smallest = array[i];
+
+			}
+			System.out.println("Largest number is: " + largest);
+			System.out.println("Smallest number is: " + smallest);
+		}
+
+	}
+
+}

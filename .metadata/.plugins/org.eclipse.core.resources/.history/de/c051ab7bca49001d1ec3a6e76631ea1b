@@ -1,0 +1,67 @@
+package com.neotech.lesson11;
+
+public class IntroToArrays {
+	public static void main(String[] args) {
+
+		// data type identifier assignment op value
+		int num = 5;
+
+		int num2;// --->declare
+		num2 = 5; // --->initialize
+
+		// 1st way
+		int[] array1 = new int[5];
+
+		// 2nd way
+
+		int[] array2;
+
+		array2 = new int[8];
+
+		// array
+
+		// how do we store values in array?
+		array1[0] = 10;
+
+		// array1 [10] [] [15] [] []
+
+		array1[2] = 15;
+
+		// how do we acces?
+
+		System.out.println(array1[2]);
+
+		// Let's create a string array
+
+		String[] strArray = new String[4];
+
+		strArray[0] = "New York.";
+
+		strArray[1] = "Istanbul.";
+
+		strArray[2] = "Atlanta.";
+
+		strArray[3] = "Colorado.";
+
+		System.out.println("I like to live in  " + strArray[1]);
+
+		char[] letters = new char[6];
+
+		letters[3] = 'C';
+
+		letters[5] = 'A';
+
+		letters[0] = 'B';
+
+		letters[1] = 'x';
+
+		System.out.println("The lettesr at index 4 is: " + letters[5]);
+
+		letters[5] = 'Y';// re-assigning
+
+		System.out.println("The new value of index 4 is: " + letters[5]);
+		
+		
+	}
+
+}

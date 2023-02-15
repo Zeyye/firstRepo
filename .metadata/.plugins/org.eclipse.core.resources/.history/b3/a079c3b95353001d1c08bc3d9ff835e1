@@ -1,0 +1,21 @@
+package com.javainterviewpoint;
+
+import java.util.Scanner;
+
+public class Stars1 {
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+System.out.println("please enter num");
+		int num = 2;
+		double cost = 5.0;
+
+		System.out.println("num= 2");
+		num = scan.nextInt();
+		System.out.println("cost= 5.0");
+		cost = scan.nextDouble();
+
+	}
+	
+
+}

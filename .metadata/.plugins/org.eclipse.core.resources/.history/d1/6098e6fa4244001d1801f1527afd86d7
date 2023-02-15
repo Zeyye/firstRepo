@@ -1,0 +1,22 @@
+package com.neotech.lesson08;
+
+public class PreIncrementAndPostIncrement {
+	
+	public static void main(String[] args) {
+		
+		//++increment
+		//--dicrement
+		
+		int x;
+		int y=10;
+		
+		//POST increment
+		
+		x=y++;
+		
+		System.out.println(x);
+		System.out.println(y);
+		
+	}
+
+}

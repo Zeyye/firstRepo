@@ -1,0 +1,17 @@
+package com.neotech.lesson11;
+
+public class PrintArrays {
+
+	private void sysout() {
+		
+		int []points = {89, 90, 45, 78, 100, 67};
+		
+		//printing one by one
+		
+		System.out.println(points[0]);
+		System.out.println(points[1]);
+		System.out.println(points[2]);
+
+	}
+
+}

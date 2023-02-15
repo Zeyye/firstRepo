@@ -1,0 +1,36 @@
+package com.neotech.lesson11;
+
+public class IntroToArrays {
+	public static void main(String[] args) {
+
+		// data type identifier assignment op value
+		int num = 5;
+
+		int num2;// --->declare
+		num2 = 5; // --->initialize
+
+		// 1st way
+		int[] array1 = new int[5];
+
+		// 2nd way
+
+		int[] array2;
+
+		array2 = new int[8];
+
+		// array
+
+		// how do we store values in array?
+		array1[0] = 10;
+
+		// array1 [10] [] [15] [] []
+
+		array1[2] = 15;
+
+		// how do we acces?
+
+		System.out.println(array1);
+
+	}
+
+}

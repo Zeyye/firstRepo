@@ -1,0 +1,29 @@
+package com.neotech.lesson06;
+
+public class LogicalAnd {
+
+	public static void main(String[] args) {
+
+		// Declare a number
+		// If number is between 1-10 -->number is small
+		// If number is between 11-100 -->number is medium
+		// If number is between 101-1000 -->number is large
+		//
+		// declare a number
+		int number = -176;
+		if (number >= 1 && number <= 10) {
+
+			System.out.println("It is a small number");
+		} else if (number >= 11 && number <= 100) {
+
+			System.out.println("It is a medium number");
+		} else if (number >= 101 && number <= 1000) {
+			System.out.println("Number is large");
+
+		} else {
+			System.out.println("The number is out of range");
+		}
+
+	}
+
+}

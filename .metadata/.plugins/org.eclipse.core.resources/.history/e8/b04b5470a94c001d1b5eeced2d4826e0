@@ -1,0 +1,16 @@
+package com.neotech.lesson13;
+
+public class RetrievingValuesFrom2dArray {
+	public static void main(String[] args) {
+
+		String[][] months = { { "December", "January", "February" }, { "March", "April", "May" },
+				{ "June", "July", "August" }, { "September", "October", "November" }
+
+		};
+		int rows = months.length;
+		int cols = months[1].length;
+
+		System.out.println("Number of rows is " + rows + " and number of " + " columns for the 2nd element is " + cols);
+	}
+
+}

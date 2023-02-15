@@ -1,0 +1,31 @@
+package com.neotech.review06;
+
+public class Person {
+
+	// instance variable
+	public String name;
+	int age;
+	protected int weight;
+
+	public Person() {
+System.out.println("Creating a person");
+	}
+
+//this is constructor
+	public Person(String pName, int pAge) {
+		name = pName;
+		age = pAge;
+	}
+
+	public Person(String pName, int pAge, int pWeight) {
+		name = pName;
+		age = pAge;
+		weight = pWeight;
+	}
+
+//this is method
+	public void displayInfo() {
+		System.out.println("Name: " + name + " age: " + age + " weight: " + weight);
+	}
+
+}

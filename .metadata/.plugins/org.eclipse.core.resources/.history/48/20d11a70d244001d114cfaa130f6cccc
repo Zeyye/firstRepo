@@ -1,0 +1,21 @@
+package DenemeReview;
+
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+
+		// Ask the user to enter 2 numbers
+		// Ask the user for the operator(+,-,/,*)
+		// Solve it using if-else AND switch
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Please enter the first number");
+
+		double d1 = scan.nextDouble();
+		System.out.println(d1);
+
+	}
+}

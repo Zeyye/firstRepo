@@ -1,0 +1,24 @@
+package com.neotech.lesson08;
+
+public class IncrementAndDicrement {
+	
+	public static void main(String[] args) {
+		
+		int x=10;
+		
+		//re-assign
+		x=11;
+		
+		x=x+1;
+		
+		//shorthand way
+		
+		x+=1;
+		//increment
+		x++;
+		System.out.println(x);
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.neotech.lesson02;
+
+public class PrintLine {
+	public static void main(String[] args) {
+		
+		
+		System.out.println("emine");
+		System.out.println("atalay");
+		System.out.println("omer");
+		System.out.println("ayse");
+		System.out.println("ihsan");
+		
+		
+		
+		
+		
+		
+	}
+		
+	}
+	
+	
+
+
